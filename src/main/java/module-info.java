@@ -6,6 +6,8 @@ module com.example.disneyapi {
     requires com.dlsc.formsfx;
     requires net.synedra.validatorfx;
     requires org.kordamp.bootstrapfx.core;
+    requires com.google.gson;
+    requires java.net.http;
 
     opens com.example.disneyapi to javafx.fxml;
     exports com.example.disneyapi;
