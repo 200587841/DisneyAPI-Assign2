@@ -12,14 +12,14 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
-public class HelloController {
+public class Scene2Controller {
     @FXML
     private Label welcomeText;
     @FXML
     private ImageView image;
 
     @FXML
-    protected void onHelloButtonClick() {
+    protected void generateCharacter() {
         // Call the get data method
         getData();
     }
